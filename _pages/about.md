@@ -22,7 +22,7 @@ Hi there! My name is Yaowen Ye. I am now an AIDD specialist at PharmaBlock Scien
 
 My research interest includes AI-driven Drug Discovery and Geroscience. I am also interested in emerging treatment mechanisms in gerontology and enjoy using bioinformatics & artificial intelligence methods to optimize therapies and conduct validation simulations. 
 
-I also like to dive in the Application of a variety of classical algorithms and AI innovation algorithms in Texas Hold'em, If you share any interested areas with mine and take some fancy ideas, feel free to email me!
+I also like to dive in the application of various classical algorithms and AI-driven innovation models in Texas Hold'em, If you share any interested areas with mine and take some fancy ideas, feel free to email me!
 
 
 
