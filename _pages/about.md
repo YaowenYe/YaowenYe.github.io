@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-Hi there! My name is Yaowen Ye. I am now an AIDD specialist at PharmaBlock Sciences (Nanjing), Inc., supervised by Dr. Jun Lu. I received my M.Eng. degree from Nanjing Tech University in 2022, where I worked with Prof. Dengming Ming on the Modeling and Application of Artificial Intelligence in the Biology of Aging.
+Hi there! My name is Yaowen Ye. I am now an AIDD specialist at PharmaBlock Sciences (Nanjing), Inc., supervised by Dr. Jun Lu. I received my M.Ind. degree from Nanjing Tech University in 2022, where I worked with Prof. Dengming Ming on the Modeling and Application of Artificial Intelligence in the Biology of Aging.
 
 My research interest includes AI-driven Drug Discovery and Geroscience. I am also interested in emerging treatment mechanisms in gerontology and enjoy using bioinformatics & artificial intelligence methods to optimize therapies and conduct validation simulations. 
 
