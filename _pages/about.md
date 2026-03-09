@@ -20,7 +20,7 @@ redirect_from:
 
 Hi there! My name is Yaowen Ye. I am now an AIDD specialist at PharmaBlock Sciences (Nanjing), Inc., supervised by Dr. Jun Lu. I received my M.Ind. degree from Nanjing Tech University in 2022, where I worked with Prof. Dengming Ming on the Modeling and Application of Artificial Intelligence in the Biology of Aging.
 
-My research interest includes AI-driven Drug Discovery and Geroscience. I am also interested in emerging treatment mechanisms in gerontology and enjoy using bioinformatics & artificial intelligence methods to optimize therapies and conduct validation simulations. 
+My research interest includes AI-driven Drug Discovery and Geroscience. I am also interested in emerging treatment mechanisms in gerontology and enjoy using bioinformatics & artificial intelligence methods to optimize therapies and conduct validation simulations. Still an ideological peer of the MUDDY WATERS RESEARCH, the Chinese have an old proverb, muddy waters make it easy to catch fish. In other words, opacity creates opportunities to make money. This way of thinking has been part of Chinese culture for centuries, and it is institutionalized in the modern PRC.
 
 I also like to dive in the application of various classical algorithms and AI-driven innovation models in Texas Hold'em, If you share any interested areas with mine and take some fancy ideas, feel free to email me!
 
