@@ -77,7 +77,7 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 </div>
 
 
-- **Revisiting senolytics: an anti-aging drug safety perspective** — **Yaowen Ye**, et al., *Ageing Research Reviews* (JCR Q1, IF = 12.4), **under revision**. A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
+- **Revisiting senolytics: an anti-aging drug safety perspective** — **Yaowen Ye**, et al., *Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second revision**. A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
 
 # 🛠 Platforms
 
