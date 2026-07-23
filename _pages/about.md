@@ -23,7 +23,7 @@ My research sits between **AI-driven drug discovery** and **geroscience**. I bui
 
 Most recently I have been trying to understand **inflammaging** from the direction of autoimmune disease. My working hypothesis is that the mechanisms are less separable than the two literatures make them look, and that immune-cell-resolved representations are a good way to test that.
 
-Outside the lab I am an old-school hip-hop lover and a big fan of Amy Farrah Fowler and Dr. Beverly Hofstadter in *The Big Bang Theory*. I also enjoy digging into classical algorithms and AI-driven models for Texas Hold'em — imperfect information is a fun place to think. If we share interests, feel free to email me!
+Outside the lab I am an old-school hip-hop lover. I also enjoy digging into classical algorithms and AI-driven models for Texas Hold'em — imperfect information is a fun place to think. If we share interests, feel free to email me!
 
 # 🔥 News
 - *2026.04*: &nbsp;📄 The **immuneKG** preprint is now on bioRxiv, with code released on GitHub.
