@@ -1,4 +1,4 @@
-# 个人主页维护指南（写给叶耀文）
+# 个人主页维护指南
 
 > 模板：[RayeRen/acad-homepage](https://github.com/RayeRen/acad-homepage.github.io)（Jekyll）
 > 网址：https://yaowenye.github.io/
