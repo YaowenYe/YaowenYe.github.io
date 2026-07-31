@@ -55,7 +55,7 @@ Revisiting senolytics: an anti-aging drug safety perspective.[Being revised](htt
 **Yaowen Ye**, et al., Dengming Ming
 
 *Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second round revision**. 
-A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
+- A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
 </div>
 </div>
 
