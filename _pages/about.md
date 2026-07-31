@@ -1,4 +1,4 @@
----
+<img width="2469" height="1143" alt="image" src="https://github.com/user-attachments/assets/41b0f7f3-6763-4c2e-890a-703aa1708d1f" />---
 permalink: /
 title: ""
 excerpt: ""
@@ -50,7 +50,7 @@ Outside the lab, I also enjoy digging into classical algorithms and AI-driven mo
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">review</div><img src='images/revise_senolytics.png' alt="revise_senolytics" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Revisiting senolytics: an anti-aging drug safety perspective
+Revisiting senolytics: an anti-aging drug safety perspective.[Being revised](https://www.sciencedirect.com/journal/ageing-research-reviews)
   
 **Yaowen Ye**, et al.
 
