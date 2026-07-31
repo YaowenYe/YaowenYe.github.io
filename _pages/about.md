@@ -65,19 +65,27 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2025</div><img src='images/senolyticsynergy.jpg' alt="SenolyticSynergy" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SenolyticSynergy: An Attention-Based Network for Discovering Novel Senolytic Combinations via Human Aging Genomics](https://www.x-mol.com/paper/1928918598633267200)
+[SenolyticSynergy: An Attention-Based Network for Discovering Novel Senolytic Combinations via Human Aging Genomics](https://www.biorxiv.org/content/10.1101/2025.05.28.655258v1.full.pdf)
 
 **Yaowen Ye**, et al.
 
-*International Journal of Molecular Sciences* (JCR Q1, IF = 5.6) \| [**Preprint**](https://doi.org/10.1101/2025.05.28.655258)
+*International Journal of Molecular Sciences* (JCR Q1, IF = 5.6) \| [**Preprint**](https://www.biorxiv.org/content/10.1101/2025.05.28.655258v1.full.pdf)
 - A **multimodal attention-based network** trained on known drug-combination data to discover novel senolytic combinations for the preventive treatment of age-induced disease.
 - Integrates **human aging genomics** — age-related differential genes and pathways — to embed aging-specific biological priors into the model.
 - Builds a high-confidence senolytic combination database, then predicts and validates combinations with elevated synergy scores.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">review</div><img src='images/revise_senolytics.png' alt="revise_senolytics" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- **Revisiting senolytics: an anti-aging drug safety perspective** — **Yaowen Ye**, et al., *Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second round revision**. A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
+Revisiting senolytics: an anti-aging drug safety perspective
+  
+**Yaowen Ye**, et al.
+
+*Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second round revision**. A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
+</div>
+</div>
 
 # 🛠 Platforms
 
