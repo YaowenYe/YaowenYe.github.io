@@ -47,6 +47,18 @@ Outside the lab, I also enjoy digging into classical algorithms and AI-driven mo
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">review</div><img src='images/revise_senolytics.png' alt="revise_senolytics" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Revisiting senolytics: an anti-aging drug safety perspective
+  
+**Yaowen Ye**, et al.
+
+*Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second round revision**. 
+A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SenolyticCapsule</div><img src='images/senolyticcapsule.jpg' alt="SenolyticCapsule" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -76,16 +88,6 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">review</div><img src='images/revise_senolytics.png' alt="revise_senolytics" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Revisiting senolytics: an anti-aging drug safety perspective
-  
-**Yaowen Ye**, et al.
-
-*Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second round revision**. A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
-</div>
-</div>
 
 # 🛠 Platforms
 
