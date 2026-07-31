@@ -1,4 +1,4 @@
-<img width="2469" height="1143" alt="image" src="https://github.com/user-attachments/assets/41b0f7f3-6763-4c2e-890a-703aa1708d1f" />---
+---
 permalink: /
 title: ""
 excerpt: ""
@@ -52,7 +52,7 @@ Outside the lab, I also enjoy digging into classical algorithms and AI-driven mo
 
 Revisiting senolytics: an anti-aging drug safety perspective.[Being revised](https://www.sciencedirect.com/journal/ageing-research-reviews)
   
-**Yaowen Ye**, et al.
+**Yaowen Ye**, et al., Dengming Ming
 
 *Ageing Research Reviews* (JCR Q1, IF = 12.4), **under second round revision**. 
 A review arguing that the anti-aging field discusses efficacy far more loudly than safety, examining the evidence across mechanism of action, dosing cycles, and administration strategy, and making the case for a shift from lifespan maximization toward healthy aging.
@@ -65,7 +65,7 @@ A review arguing that the anti-aging field discusses efficacy far more loudly th
 
 Multi-head attention-based prediction of high-safety senolytic drug combinations
 
-**Yaowen Ye**, et al.
+**Yaowen Ye**, et al., Dengming Ming
 
 *Journal of Nanjing Tech University (Natural Science Edition)* — Chinese core journal \| [**Code**](https://github.com/Yeaee/SenolyticCapsule)
 - A multi-drug prediction model centred on senolytic **cocktail therapy**, yielding **five high-safety senolytic capsules**.
@@ -79,7 +79,7 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 
 [SenolyticSynergy: An Attention-Based Network for Discovering Novel Senolytic Combinations via Human Aging Genomics](https://www.biorxiv.org/content/10.1101/2025.05.28.655258v1.full.pdf)
 
-**Yaowen Ye**, et al.
+**Yaowen Ye**, et al., Dengming Ming
 
 *International Journal of Molecular Sciences* (JCR Q1, IF = 5.6) \| [**Preprint**](https://www.biorxiv.org/content/10.1101/2025.05.28.655258v1.full.pdf)
 - A **multimodal attention-based network** trained on known drug-combination data to discover novel senolytic combinations for the preventive treatment of age-induced disease.
