@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yaowen Ye"
-  avatar           : "images/profile.jpg"
+  avatar           : "images/selfie.jpg"
   bio              : "AI for GeroScience · AI-Driven Drug Discovery"
   location         : "Nanjing, Jiangsu, China"
   employer         : "PharmaBlock Sciences, Inc."
