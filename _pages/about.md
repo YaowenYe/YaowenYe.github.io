@@ -82,7 +82,7 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 
 **Yaowen Ye**, et al., Dengming Ming
 
-*International Journal of Molecular Sciences* (JCR Q1, IF = 5.6) \| [**Preprint**](https://www.biorxiv.org/content/10.1101/2025.05.28.655258v1.full.pdf)
+*International Journal of Molecular Sciences* (JCR Q1, IF = 5.6) \| [**Manuscript**](https://www.biorxiv.org/content/10.1101/2025.05.28.655258v1.full.pdf)
 - A **multimodal attention-based network** trained on known drug-combination data to discover novel senolytic combinations for the preventive treatment of age-induced disease.
 - Integrates **human aging genomics** — age-related differential genes and pathways — to embed aging-specific biological priors into the model.
 - Builds a high-confidence senolytic combination database, then predicts and validates combinations with elevated synergy scores.
