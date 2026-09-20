@@ -19,13 +19,12 @@ redirect_from:
 
 Hi there! My name is Yaowen Ye (叶耀文). I am an AIDD specialist on the **AI-Driven Drug Discovery (AIDD) Team** at **PharmaBlock Sciences, Inc.** (Nanjing), where I work with Dr. Jun Lu on the autoimmune pipeline. I received my M.Sc. in Bioinformatics from **Nanjing Tech University** in 2025, where I worked with Prof. Dengming Ming on machine learning and computational biology for aging intervention — *AI for GeroScience*.
 
-My research sits between **AI-driven drug discovery** and **geroscience**. I build knowledge graphs and multimodal deep learning models to surface novel targets and safer intervention strategies. I care a lot about the step that usually gets skipped: whether a computational result survives contact with a real pipeline — which is why I like validating predictions against clinical evidence rather than against a leaderboard.
+My research sits between **AI-driven drug discovery** and **geroscience**. I build knowledge graphs and multimodal deep learning models to surface novel targets and safer intervention strategies. I care a lot about the step that usually gets skipped: whether a computational result survives contact with a real pipeline — which is why I like validating predictions against clinical evidence rather than against a leaderboard. Outside the lab, I also enjoy digging into classical algorithms and AI-driven models for Texas Hold’em, I still follow game-theoretic solvers and, lately, LLM-based poker agents— imperfect information is a fun place to think.
 
 Recently, I have been leveraging cutting-edge virtual simulation techniques to validate rapidly evolving, novel targets (aging+). These include, but are not limited to, in silico knockouts, virtual drug perturbations, virtual cells/tissues/organoids, and fully simulated human PK models. I firmly believe that utilizing reproducible in silico simulation technologies, combined with repurposed active molecules, represents the most efficient pathway to advance these novel targets into industry-grade clinical translation.
 
 _For a long time, I have watched the rise and fall of many drug/disease targets, but the target which stood at the end was always waiting us to uncover._
 
-Outside the lab, I also enjoy digging into classical algorithms and AI-driven models for Texas Hold’em, I still follow game-theoretic solvers and, lately, LLM-based poker agents— imperfect information is a fun place to think. If we share interests, feel free to email me!
 
 # 🔥 News
 - *2026.04*: &nbsp;📄 The **immuneKG** preprint is now on bioRxiv, with code released on GitHub.
