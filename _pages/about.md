@@ -127,8 +127,8 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 - *2025.11*, Conference on Artificial Intelligence in Pharmacy.
 
 # 💻 Experience
-- *2025.09 - Present*, **PharmaBlock Sciences, Inc.**, Nanjing — PB-IDD(AIDD) Team, autoimmune pipeline. Leading immuneKG, ADMET-Optimizer, and PKExtract.
-- *2025.05 - 2025.08*, **Hengrui Medicine Co., Ltd.**, Shanghai — metabolic pipeline. Participate in job rotation and internship in the AIDD department under the metabolic R&D pipeline
+- *2025.09 - Present*, **PharmaBlock Sciences, Inc.**, Nanjing — PB-IDD(AIDD) Team, Immunomics pipeline. Leading immuneKG, ADMET-Optimizer, and PKExtract.
+- *2025.05 - 2025.08*, **Hengrui Medicine Co., Ltd.**, Shanghai — Chronic Pain Department, Metabolomics pipeline. Participate in job rotation and internship in the AIDD department under the metabolic R&D pipeline.
 
 
 
