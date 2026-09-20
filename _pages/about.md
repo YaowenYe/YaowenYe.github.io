@@ -23,7 +23,7 @@ My research sits between **AI-driven drug discovery** and **geroscience**. I bui
 
 Recently, I have been leveraging cutting-edge virtual simulation techniques to validate rapidly evolving, novel targets (aging+). These include, but are not limited to, in silico knockouts, virtual drug perturbations, virtual cells/tissues/organoids, and fully simulated human PK models. I firmly believe that utilizing reproducible in silico simulation technologies, combined with repurposed active molecules, represents the most efficient pathway to advance these novel targets into industry-grade clinical translation.
 
-_While waves wash away the rest, we remain steadfast. After witnessing the rise and decline of numerous therapeutic targets, the one that stands the test of time is now ready for us to mine._
+_While waves wash away the rest, we remain steadfast. After witnessing the rise and decline of numerous therapeutic targets, the one that stands the test of time is now waiting us to mine._
 
 
 # 🔥 News
