@@ -23,7 +23,7 @@ My research sits between **AI-driven drug discovery** and **geroscience**. I bui
 
 Recently, I have been leveraging cutting-edge virtual simulation techniques to validate rapidly evolving, novel targets (aging+). These include, but are not limited to, in silico knockouts, virtual drug perturbations, virtual cells/tissues/organoids, and fully simulated human PK models. I firmly believe that utilizing reproducible in silico simulation technologies, combined with repurposed active molecules, represents the most efficient pathway to advance these novel targets into industry-grade clinical translation.
 
-_For a long time, I have watched the rise and fall of many aging——related targets, but the target which stood at the end was always there._
+_For a long time, I have watched the rise and fall of many drug/disease targets, but the target which stood at the end was always there._
 
 # 🔥 News
 - *2026.04*: &nbsp;📄 The **immuneKG** preprint is now on bioRxiv, with code released on GitHub.
