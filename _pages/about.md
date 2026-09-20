@@ -132,5 +132,3 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 
 
 
-# 🎲 Elsewhere
-Founder of **Turkey Studio** during my undergraduate years — registered the company and domain, and built and ran three servers, using the private one for deep learning training. Projects on that infrastructure included a greedy-algorithm search for heads-up Texas Hold'em, an OpenCV + PyGUI game automation loop, and an LSTM model for securities forecasting. The poker one stuck: I still follow game-theoretic solvers and, lately, LLM-based poker agents.
