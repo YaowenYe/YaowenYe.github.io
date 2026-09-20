@@ -127,8 +127,10 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 - *2025.11*, Conference on Artificial Intelligence in Pharmacy.
 
 # 💻 Experience
-- *2025.09 - Present*, **PharmaBlock Sciences, Inc.**, Nanjing — AIDD Team, autoimmune pipeline. Leading immuneKG, ADMET-Optimizer, and PKExtract.
-- *2025.05 - 2025.08*, **Hengrui Medicine Co., Ltd.**, Shanghai — metabolic pipeline.
+- *2025.09 - Present*, **PharmaBlock Sciences, Inc.**, Nanjing — PB-IDD(AIDD) Team, autoimmune pipeline. Leading immuneKG, ADMET-Optimizer, and PKExtract.
+- *2025.05 - 2025.08*, **Hengrui Medicine Co., Ltd.**, Shanghai — metabolic pipeline. Participate in job rotation and internship in the AIDD department under the metabolic R&D pipeline
+
+
 
 # 🎲 Elsewhere
 Founder of **Turkey Studio** during my undergraduate years — registered the company and domain, and built and ran three servers, using the private one for deep learning training. Projects on that infrastructure included a greedy-algorithm search for heads-up Texas Hold'em, an OpenCV + PyGUI game automation loop, and an LSTM model for securities forecasting. The poker one stuck: I still follow game-theoretic solvers and, lately, LLM-based poker agents.
