@@ -21,9 +21,9 @@ Hi there! My name is Yaowen Ye (叶耀文). I am an AIDD specialist on the **AI-
 
 My research sits between **AI-driven drug discovery** and **geroscience**. I build knowledge graphs and multimodal deep learning models to surface novel targets and safer intervention strategies. I care a lot about the step that usually gets skipped: whether a computational result survives contact with a real pipeline — which is why I like validating predictions against clinical evidence rather than against a leaderboard.
 
-Recently, I have been leveraging cutting-edge virtual simulation techniques to validate the fast-evolving novel targets (aging+), including but not limited to in silico knockouts, in silico drug perturbations, virtual cells/tissues/organoids, and fully simulated human pharmacokinetic (PK) models. It is my firm conviction that leveraging reproducible in silico technologies in tandem with active molecules from drug repositioning is the most efficient trajectory for driving these novel targets toward industrial-scale clinical translation.
+Recently, I have been leveraging cutting-edge virtual simulation techniques to validate rapidly evolving, novel targets (aging+). These include, but are not limited to, in silico knockouts, virtual drug perturbations, virtual cells/tissues/organoids, and fully simulated human PK models. I firmly believe that utilizing reproducible in silico simulation technologies, combined with repurposed active molecules, represents the most efficient pathway to advance these novel targets into industry-grade clinical translation.
 
-For a long time, I have watched the rise and fall of many targets, but the target which stood at the end was always there.
+_For a long time, I have watched the rise and fall of many aging——related targets, but the target which stood at the end was always there._
 
 # 🔥 News
 - *2026.04*: &nbsp;📄 The **immuneKG** preprint is now on bioRxiv, with code released on GitHub.
