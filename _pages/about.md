@@ -59,20 +59,6 @@ Revisiting senolytics: an anti-aging drug safety perspective.[Being revised](htt
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chinese Core Journals 2025</div><img src='images/senolyticcapsule.jpg' alt="SenolyticCapsule" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Multi-head attention-based prediction of high-safety senolytic drug combinations
-
-**Yaowen Ye**, et al., Dengming Ming
-
-*Journal of Nanjing Tech University (Natural Science Edition)* — Chinese core journal \| [**Code**](https://github.com/Yeaee/SenolyticCapsule)
-- A multi-drug prediction model centred on senolytic **cocktail therapy**, yielding **five high-safety senolytic capsules**.
-- **Three parallel feature streams** — SMILES semantic embedding, substructure fingerprints, molecular descriptors — feed a multi-head attention model, trained on **1,512 positive and 681 negative** combination samples.
-- 100 candidate capsules filtered by predicted toxicity down to five combinations free of adverse drug effects.
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2025</div><img src='images/senolyticsynergy.jpg' alt="SenolyticSynergy" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -86,6 +72,21 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 - Builds a high-confidence senolytic combination database, then predicts and validates combinations with elevated synergy scores.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">thesis 2025</div><img src='images/senolyticcapsule.jpg' alt="SenolyticCapsule" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Multi-head attention-based prediction of high-safety senolytic drug combinations
+
+**Yaowen Ye**, et al., Dengming Ming
+
+*Journal of Nanjing Tech University (Natural Science Edition)* — Chinese core journal \| [**Code**](https://github.com/Yeaee/SenolyticCapsule)
+- A multi-drug prediction model centred on senolytic **cocktail therapy**, yielding **five high-safety senolytic capsules**.
+- **Three parallel feature streams** — SMILES semantic embedding, substructure fingerprints, molecular descriptors — feed a multi-head attention model, trained on **1,512 positive and 681 negative** combination samples.
+- 100 candidate capsules filtered by predicted toxicity down to five combinations free of adverse drug effects.
+</div>
+</div>
+
 
 
 # 🛠 Platforms
