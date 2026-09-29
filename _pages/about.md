@@ -59,7 +59,7 @@ Revisiting senolytics: an anti-aging drug safety perspective.[Being revised](htt
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chinese core journals 2025</div><img src='images/senolyticcapsule.jpg' alt="SenolyticCapsule" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chinese Core Journals 2025</div><img src='images/senolyticcapsule.jpg' alt="SenolyticCapsule" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Multi-head attention-based prediction of high-safety senolytic drug combinations
