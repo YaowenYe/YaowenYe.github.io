@@ -46,7 +46,7 @@ _I am firmly convinced that the poor reproducibility and replication difficultie
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Peer Review 2026</div><img src='images/revise_senolytics.png' alt="revise_senolytics" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Peer Review 2026</div><img src='images/fig1_mtor_rapamycin_final.png' alt="revise_senolytics" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Revisiting senolytics: an anti-aging drug safety perspective.[Being revised](https://www.sciencedirect.com/journal/ageing-research-reviews)
