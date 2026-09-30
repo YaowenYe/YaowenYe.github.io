@@ -21,7 +21,7 @@ Hi there! My name is Yaowen Ye (叶耀文). I am an AIDD specialist on the **AI-
 
 My research sits between **AI-driven drug discovery** and **geroscience**. I build knowledge graphs and multimodal deep learning models to surface novel targets and safer intervention strategies. I care a lot about the step that usually gets skipped: whether a computational result survives contact with a real pipeline — which is why I like validating predictions against clinical evidence rather than against a leaderboard. Recently, I have been leveraging cutting-edge virtual simulation techniques to validate rapidly evolving, novel targets (aging+). These include, but are not limited to, in silico knockouts, virtual drug perturbations, virtual cells/tissues/organoids, and fully simulated human PK models. I believe that utilizing reproducible in silico simulation technologies, combined with repurposed active molecules, represents the most efficient pathway to advance these novel targets into industry-grade clinical translation. 
 
-_I am firmly convinced that the poor reproducibility and replication difficulties of traditional biological experiments undermine the brilliance of life-science, and they are steadily being superseded by in-silico experiments capable of delivering stable and reproducible results. While waves wash away the rest, we remain steadfast._
+_The poor reproducibility of traditional biological experiments often obscures the brilliance of life sciences. Today, these methods are giving way to in-silico experiments that deliver stable, reproducible results. As the waves of change sweep the rest away, we remain steadfast._
 
 
 # 🔥 News
