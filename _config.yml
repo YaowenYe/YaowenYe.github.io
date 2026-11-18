@@ -144,6 +144,7 @@ sass:
 
 
 # Blog
+future                   : true  # 日期写成“今天稍晚”或未来的博文也照常显示（Jekyll 默认会隐藏）
 blog_excerpt_length      : 160   # 列表页摘要长度（字符），可在单篇博文 front matter 里用 summary 覆盖
 
 # RSS (jekyll-feed 自动生成 /feed.xml)
