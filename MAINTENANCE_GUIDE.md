@@ -213,7 +213,6 @@ cover: images/blog/xxx.jpg      # 可选；列表页右侧的小封面图
 | 标注更新时间 | front matter 里加 `updated: 2026-12-10` |
 | 修改 / 删除 | 直接改 / 删 `_posts/` 里那个文件 |
 | 改列表摘要长度 | `_config.yml` 里的 `blog_excerpt_length` |
-| RSS 订阅 | 自动生成于 `/feed.xml`，无需维护 |
 
 > **在 GitHub 网页上直接写也行**：仓库里点进 `_posts/` → *Add file* → *Create new file*，文件名按上面格式填，写完 *Commit*。图片同理用 *Upload files* 传到 `images/blog/`。不用开电脑上的任何东西，这就是替代 WordPress 后台的方式。
 
@@ -225,6 +224,6 @@ cover: images/blog/xxx.jpg      # 可选；列表页右侧的小封面图
 | `_pages/blog.html` | 新建：博文列表页 |
 | `_layouts/post.html` | 新建：单篇博文的版式 |
 | `assets/css/main.scss` | 末尾追加博客样式（沿用主页的配色和分隔线） |
-| `_config.yml` | 加了博文默认版式、网址格式、摘要长度、RSS 设置 |
+| `_config.yml` | 加了博文默认版式、网址格式、摘要长度 |
 | `_data/navigation.yml` | 导航栏加 *Blog*（并去掉了 Platforms） |
 | `_includes/` 若干 | CSS/JS/头像/图标路径改成以 `/` 开头的绝对路径 —— 否则子页面（如 `/blog/…`）会找不到样式；博客页里链接改为当前页打开 |
