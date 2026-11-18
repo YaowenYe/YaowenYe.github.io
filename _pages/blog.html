@@ -1,0 +1,86 @@
+---
+permalink: /blog/
+title: "Blog"
+author_profile: true
+blog: true
+---
+
+{% assign posts = site.posts %}
+{% assign excerpt_len = site.blog_excerpt_length | default: 160 %}
+
+<span class='anchor' id='blog-top'></span>
+
+<h1 class="blog-index__title">✍️ Blog</h1>
+
+<p class="blog-intro">Notes on AI-driven drug discovery, geroscience, and whatever else I happen to be thinking about. <a href="{{ '/feed.xml' | relative_url }}" class="blog-rss"><i class="fas fa-fw fa-rss" aria-hidden="true"></i>RSS</a></p>
+
+{% if site.tags.size > 0 %}
+<div class="blog-filter" id="blog-filter">
+  <button type="button" class="blog-tag blog-tag--active" data-tag="">All</button>
+  {% capture tag_str %}{% for t in site.tags %}{{ t[0] }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
+  {% assign tag_names = tag_str | split: "|" | sort_natural %}
+  {% for t in tag_names %}<button type="button" class="blog-tag" data-tag="{{ t | escape }}">{{ t }}</button>{% endfor %}
+</div>
+{% endif %}
+
+{% if posts.size == 0 %}
+<p class="blog-empty">No posts yet — stay tuned.</p>
+{% endif %}
+
+{% assign years = posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in years %}
+<section class="blog-year-group">
+  <h2 class="blog-year">{{ year.name }}</h2>
+  {% for post in year.items %}
+    {% assign chars = post.content | strip_html | size %}
+    {% assign read_min = chars | divided_by: 500 | plus: 1 %}
+    <article class="blog-item" data-tags="{{ post.tags | join: '|' | escape }}">
+      <div class="blog-item__text">
+        <h3 class="blog-item__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="blog-meta">
+          <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+          <span>&middot; {{ read_min }} min read</span>
+          {% for tag in post.tags %}<span class="blog-tag blog-tag--static">{{ tag }}</span>{% endfor %}
+        </p>
+        <p class="blog-item__excerpt">
+          {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | strip_html | normalize_whitespace | truncate: excerpt_len }}{% endif %}
+        </p>
+        <a class="blog-item__more" href="{{ post.url | relative_url }}">Read more &rarr;</a>
+      </div>
+      {% if post.cover %}
+      <a class="blog-item__cover" href="{{ post.url | relative_url }}"><img src="{{ post.cover | prepend: '/' | relative_url }}" alt="{{ post.title | escape }}"></a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>
+{% endfor %}
+
+<script>
+  // 标签筛选：点击标签只显示带该标签的博文；支持 /blog/?tag=xxx 直接链接
+  (function () {
+    var bar = document.getElementById('blog-filter');
+    if (!bar) return;
+    function apply(tag) {
+      bar.querySelectorAll('.blog-tag').forEach(function (b) {
+        b.classList.toggle('blog-tag--active', b.getAttribute('data-tag') === tag);
+      });
+      document.querySelectorAll('.blog-item').forEach(function (it) {
+        var tags = (it.getAttribute('data-tags') || '').split('|');
+        it.style.display = (!tag || tags.indexOf(tag) !== -1) ? '' : 'none';
+      });
+      document.querySelectorAll('.blog-year-group').forEach(function (g) {
+        var any = Array.prototype.some.call(g.querySelectorAll('.blog-item'), function (it) { return it.style.display !== 'none'; });
+        g.style.display = any ? '' : 'none';
+      });
+    }
+    bar.addEventListener('click', function (e) {
+      var b = e.target.closest('.blog-tag');
+      if (!b) return;
+      var tag = b.getAttribute('data-tag');
+      apply(tag);
+      history.replaceState(null, '', tag ? '?tag=' + encodeURIComponent(tag) : location.pathname);
+    });
+    var q = new URLSearchParams(location.search).get('tag');
+    if (q) apply(q);
+  })();
+</script>

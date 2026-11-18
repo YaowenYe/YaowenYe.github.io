@@ -126,6 +126,15 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # _posts (博文)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+      blog: true
+      permalink: /blog/:year/:month/:title/
 
 
 # Sass/SCSS
@@ -133,6 +142,13 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+
+# Blog
+blog_excerpt_length      : 160   # 列表页摘要长度（字符），可在单篇博文 front matter 里用 summary 覆盖
+
+# RSS (jekyll-feed 自动生成 /feed.xml)
+feed:
+  path: feed.xml
 
 # Outputting
 permalink: /:categories/:title/

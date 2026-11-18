@@ -169,3 +169,62 @@ bundle install    # 只需第一次
 ## 六、备用素材
 
 `images/immunekg_concept.jpg` 是 immuneKG 的概念图（SOTA vs Biology-Driven 那张）。目前用的是四联主图 `immunekg.jpg`。想换的话，把 `about.md` 里的文件名一改即可——**概念图是横图，在配图区里其实比竖的四联图更清楚**，可以两个都试试看哪个顺眼。
+
+---
+
+## 七、写博文（Blog）
+
+博客是一个独立子页面：**https://yaowenye.github.io/blog/**（导航栏最右的 *Blog*）。
+列表页自动按年份分组，显示每篇的标题、日期、阅读时长、标签和摘要；点进去是全文，底部有上一篇 / 下一篇。
+
+### 发一篇新博文 = 往 `_posts/` 里放一个 `.md` 文件
+
+**文件名格式固定**：`年-月-日-英文短名.md`，例如
+
+```
+_posts/2026-12-01-virtual-knockout-notes.md
+```
+
+- 日期决定排序和网址里的年月；
+- 英文短名会成为网址的一部分 → `/blog/2026/12/virtual-knockout-notes/`（用英文和连字符，别用中文和空格）。
+
+**文件开头复制这段 front matter**，改一下就行：
+
+```markdown
+---
+title: "博文标题"
+tags: [AIDD, Geroscience]      # 可选，列表页可按标签筛选
+summary: "列表页显示的摘要，一两句话。"   # 可选；不写就自动截取正文前 160 字
+cover: images/blog/xxx.jpg      # 可选；列表页右侧的小封面图
+---
+
+正文从这里开始，用 ## 做小标题……
+```
+
+然后照常 push，1–2 分钟后自动上线。
+
+### 常见操作
+
+| 想做的事 | 怎么做 |
+|---|---|
+| 插图 | 图片放 `images/blog/`，正文里写 `![图注](/images/blog/图.png)`（**以 `/` 开头**） |
+| 公式 | `$行内$`，独立公式用 `$$ ... $$`（和主页一样走 MathJax） |
+| 存草稿，暂不发布 | front matter 里加 `published: false` |
+| 标注更新时间 | front matter 里加 `updated: 2026-12-10` |
+| 修改 / 删除 | 直接改 / 删 `_posts/` 里那个文件 |
+| 改列表摘要长度 | `_config.yml` 里的 `blog_excerpt_length` |
+| RSS 订阅 | 自动生成于 `/feed.xml`，无需维护 |
+
+> **在 GitHub 网页上直接写也行**：仓库里点进 `_posts/` → *Add file* → *Create new file*，文件名按上面格式填，写完 *Commit*。图片同理用 *Upload files* 传到 `images/blog/`。不用开电脑上的任何东西，这就是替代 WordPress 后台的方式。
+
+### 这次为博客改动了哪些文件
+
+| 文件 | 改了什么 |
+|---|---|
+| `_posts/` | 新建：博文文件夹，存放所有博文 |
+| `_pages/blog.html` | 新建：博文列表页 |
+| `_layouts/post.html` | 新建：单篇博文的版式 |
+| `assets/css/main.scss` | 末尾追加博客样式（沿用主页的配色和分隔线） |
+| `_config.yml` | 加了博文默认版式、网址格式、摘要长度、RSS 设置 |
+| `_data/navigation.yml` | 导航栏加 *Blog*（并去掉了 Platforms） |
+| `_includes/` 若干 | CSS/JS/头像/图标路径改成以 `/` 开头的绝对路径 —— 否则子页面（如 `/blog/…`）会找不到样式；博客页里链接改为当前页打开 |

@@ -107,3 +107,176 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ==========================================================================
+   Blog（博文列表页 /blog/ 与单篇博文）
+   颜色、边框沿用主页：$border-color 分隔线、#00369f 徽章蓝、$info-color 链接
+   ========================================================================== */
+
+$blog-accent: #00369f;
+
+.blog-intro {
+  color: $gray;
+  margin-bottom: 1em;
+}
+
+.page__content a.blog-rss {
+  margin-left: .5em;
+  font-size: .85em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.blog-meta {
+  color: $gray;
+  font-size: .85em !important;
+  margin: .2em 0 .6em !important;
+  span { margin-right: .35em; }
+}
+
+/* 标签 */
+.blog-tag,
+.page__content a.blog-tag {
+  display: inline-block;
+  margin: 0 .35em .35em 0;
+  padding: .1em .65em;
+  font-size: .8em;
+  line-height: 1.6;
+  color: $blog-accent;
+  background: #fff;
+  border: 1px solid rgba($blog-accent, .35);
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: $global-font-family;
+  &:hover { background: rgba($blog-accent, .06); text-decoration: none; }
+}
+.blog-tag--active,
+.blog-tag--active:hover {
+  color: #fff;
+  background: $blog-accent;
+  border-color: $blog-accent;
+}
+.blog-tag--static { cursor: default; &:hover { background: #fff; } }
+
+.blog-filter {
+  margin: 0 0 .5em;
+}
+
+.blog-empty { color: $gray; font-style: italic; }
+
+/* 列表 */
+.page__content h2.blog-year {
+  margin: 1.6em 0 0;
+  padding-left: .6em;
+  font-size: $type-size-5;
+  color: $gray;
+  border-left: 3px solid $blog-accent;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px $border-color solid;
+  padding: 1.4em 0;
+
+  .blog-item__text { flex: 1 1 auto; min-width: 0; }
+
+  .blog-item__title {
+    margin: 0;
+    font-size: $type-size-4;
+    a { text-decoration: none; color: $text-color; }
+    a:hover { color: $blog-accent; text-decoration: underline; }
+  }
+
+  .blog-item__excerpt {
+    margin: 0 0 .4em;
+    line-height: 1.7;
+  }
+
+  a.blog-item__more {
+    font-size: .85em;
+    text-decoration: none;
+  }
+
+  .blog-item__cover {
+    order: -1;
+    margin-bottom: 1em;
+    img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      box-shadow: 3px 3px 6px #888;
+    }
+  }
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    align-items: flex-start;
+    .blog-item__cover {
+      order: 2;
+      flex: 0 0 200px;
+      margin: .3em 0 0 1.5em;
+      img { height: 130px; }
+    }
+  }
+}
+
+/* 单篇博文 */
+.page__content a.blog-back {
+  display: inline-block;
+  margin-top: 1.5em;
+  font-size: .85em;
+  text-decoration: none;
+}
+
+.blog-post__header {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 1.5em;
+}
+.page__content h1.blog-post__title {
+  margin: .4em 0 .3em;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-size: $type-size-2;
+  line-height: 1.3;
+}
+
+.blog-post__body {
+  line-height: 1.8;
+  img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+  }
+  h2 { margin-top: 1.6em; }
+  blockquote {
+    margin-left: 0;
+    padding-left: 1em;
+    border-left: 3px solid rgba($blog-accent, .5);
+    color: $dark-gray;
+    font-style: normal;
+  }
+  pre { line-height: 1.5; }
+  table { display: block; overflow-x: auto; }
+}
+
+.blog-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid $border-color;
+
+  a.blog-pager__link {
+    display: flex;
+    flex-direction: column;
+    max-width: 48%;
+    text-decoration: none;
+    &:hover .blog-pager__title { text-decoration: underline; }
+  }
+  .blog-pager__next { margin-left: auto; text-align: right; }
+  .blog-pager__label { font-size: .8em; color: $gray; }
+  .blog-pager__title { font-size: .95em; }
+}

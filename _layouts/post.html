@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign chars = content | strip_html | size %}
+{% assign read_min = chars | divided_by: 500 | plus: 1 %}
+
+<div class="blog-post">
+
+  <a class="blog-back" href="{{ '/blog/' | relative_url }}">&larr; All posts</a>
+
+  <header class="blog-post__header">
+    <h1 class="blog-post__title">{{ page.title }}</h1>
+    <p class="blog-meta">
+      <span><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</span>
+      {% if page.updated %}<span>&middot; Updated {{ page.updated | date: "%Y-%m-%d" }}</span>{% endif %}
+      <span>&middot; <i class="fas fa-fw fa-clock" aria-hidden="true"></i> {{ read_min }} min read</span>
+      {% if page.tags.size > 0 %}
+      <span class="blog-tags">
+        {% for tag in page.tags %}<a class="blog-tag" href="{{ '/blog/' | relative_url }}?tag={{ tag | uri_escape }}">{{ tag }}</a>{% endfor %}
+      </span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="blog-post__body">
+    {{ content }}
+  </div>
+
+  <nav class="blog-pager">
+    {% if page.previous %}
+      <a class="blog-pager__link blog-pager__prev" href="{{ page.previous.url | relative_url }}">
+        <span class="blog-pager__label">&larr; Older</span>
+        <span class="blog-pager__title">{{ page.previous.title }}</span>
+      </a>
+    {% else %}<span></span>{% endif %}
+    {% if page.next %}
+      <a class="blog-pager__link blog-pager__next" href="{{ page.next.url | relative_url }}">
+        <span class="blog-pager__label">Newer &rarr;</span>
+        <span class="blog-pager__title">{{ page.next.title }}</span>
+      </a>
+    {% endif %}
+  </nav>
+
+</div>
+
+<script>
+  // 博文里的站外链接在新标签页打开，站内链接保持当前页跳转
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.blog-post__body a[href^="http"]').forEach(function (a) {
+      if (a.hostname !== location.hostname) { a.target = '_blank'; a.rel = 'noopener'; }
+    });
+  });
+</script>

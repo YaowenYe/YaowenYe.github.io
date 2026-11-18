@@ -9,9 +9,6 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Platforms"
-    url: "/#-platforms"
-
   - title: "Educations"
     url: "/#-educations"
 
@@ -20,3 +17,6 @@ main:
 
   - title: "Experience"
     url: "/#-experience"
+
+  - title: "Blog"
+    url: "/blog/"

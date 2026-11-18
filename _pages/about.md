@@ -19,9 +19,7 @@ redirect_from:
 
 Hi there! My name is Yaowen Ye. I am an AIDD specialist on the **AI-Driven Drug Discovery (AIDD) Team** at **PharmaBlock Sciences, Inc.**, where I work with Dr. Jun Lu on the autoimmune pipeline. I received my M.Sc. in Bioinformatics from **Nanjing Tech University** in 2025, where I worked with Prof. Dengming Ming on machine learning and computational biology for aging intervention — so called as *AI4GeroScience*. Outside the lab, I also enjoy digging into classical algorithms and AI-driven models for Texas Hold’em.
 
-My research sits between **AI-driven drug discovery** and **geroscience**. I build knowledge graphs and multimodal deep learning models to surface novel targets and safer intervention strategies. I care a lot about the step that usually gets skipped: whether a computational result survives contact with a real pipeline — which is why I like validating predictions against clinical evidence rather than against a leaderboard. Recently, I have been leveraging cutting-edge virtual simulation techniques to validate rapidly evolving, novel targets (aging+). These include, but are not limited to, in silico knockouts, virtual drug perturbations, virtual cells/tissues/organoids, and fully simulated human PK models. I believe that utilizing reproducible in silico simulation technologies, combined with repurposed active molecules, represents the most efficient pathway to advance these novel targets into industry-grade clinical translation. 
-
-_The poor reproducibility of traditional biological experiments often obscures the brilliance of life sciences. Today, these methods are giving way to in-silico experiments that deliver stable, reproducible results. As the waves of change sweep the rest away, we remain steadfast._
+My work sits between **AI-driven drug discovery** and **geroscience**: knowledge graphs, multimodal models and in-silico simulation for finding new targets — validated against clinical evidence rather than leaderboards.
 
 
 # 🔥 News
@@ -84,34 +82,6 @@ Multi-head attention-based prediction of high-safety senolytic drug combinations
 - A multi-drug prediction model centred on senolytic **cocktail therapy**, yielding **five high-safety senolytic capsules**.
 - **Three parallel feature streams** — SMILES semantic embedding, substructure fingerprints, molecular descriptors — feed a multi-head attention model, trained on **1,512 positive and 681 negative** combination samples.
 - 100 candidate capsules filtered by predicted toxicity down to five combinations free of adverse drug effects.
-</div>
-</div>
-
-
-
-# 🛠 Platforms
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ADMET</div><img src='images/admet_optimizer.jpg' alt="ADMET-Optimizer" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**ADMET-Optimizer** — Matched-Pair Transformation Console for Lead Optimization
-
-*Project lead, PharmaBlock AIDD Team*
-- Input a lead molecule, generate analogs via **interpretable matched-molecular-pair transformation rules**, predict ADMET with switchable scorer backends, and rank the candidates.
-- **21 ADMET endpoints, 165 transformation rules**; a pluggable scorer architecture unifies local chemprop models and the ADMETlab 3.0 API behind one interface.
-- Retrospectively benchmarked on real medicinal-chemistry cases, including **terfenadine → fexofenadine** hERG mitigation (predicted hERG risk 0.995 → 0.738 at 0.80 structural similarity).
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PK</div><img src='images/pkextract.jpg' alt="PKExtract" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**PKExtract** — Automated Pharmacokinetics Extraction & Analytics Platform
-
-*Project lead, PharmaBlock AIDD Team*
-- An AI pipeline that ingests in-vivo PK study reports in batch, identifies the source, and extracts **concentration–time profiles and derived PK parameters** (C<sub>max</sub>, T<sub>max</sub>, T<sub>1/2</sub>, AUC, CL, V<sub>d</sub>, MRT, bioavailability) into analysis-ready structured data.
-- A companion analytics module aggregates across studies — species, administration route, dosing and fasting status — with heat-mapped cross-tabulation.
-- Runs fully **on-premises** to meet internal data-governance requirements.
 </div>
 </div>
 
