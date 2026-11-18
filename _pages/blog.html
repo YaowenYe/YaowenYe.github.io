@@ -1,7 +1,7 @@
 ---
 permalink: /blog/
 title: "Blog"
-author_profile: true
+author_profile: false
 blog: true
 ---
 
@@ -43,7 +43,7 @@ blog: true
           {% for tag in post.tags %}<span class="blog-tag blog-tag--static">{{ tag }}</span>{% endfor %}
         </p>
         <p class="blog-item__excerpt">
-          {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | strip_html | normalize_whitespace | truncate: excerpt_len }}{% endif %}
+          {% if post.summary %}{{ post.summary }}{% else %}{% assign first_para = post.content | split: '</p>' | first %}{{ first_para | strip_html | normalize_whitespace | truncate: excerpt_len }}{% endif %}
         </p>
         <a class="blog-item__more" href="{{ post.url | relative_url }}">Read more &rarr;</a>
       </div>

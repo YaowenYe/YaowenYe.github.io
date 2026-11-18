@@ -194,7 +194,7 @@ _posts/2026-12-01-virtual-knockout-notes.md
 ---
 title: "博文标题"
 tags: [AIDD, Geroscience]      # 可选，列表页可按标签筛选
-summary: "列表页显示的摘要，一两句话。"   # 可选；不写就自动截取正文前 160 字
+summary: "列表页显示的摘要，一两句话。"   # 可选；不写就自动取正文第一段（超过 160 字会截断）
 cover: images/blog/xxx.jpg      # 可选；列表页右侧的小封面图
 ---
 

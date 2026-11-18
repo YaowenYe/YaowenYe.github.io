@@ -132,7 +132,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author_profile: true
+      author_profile: false
       blog: true
       permalink: /blog/:year/:month/:title/
 
